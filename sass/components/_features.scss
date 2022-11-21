@@ -1,0 +1,43 @@
+/* Секція Особливості */
+
+.features {
+    @include section (47px, 94px);
+
+    &__title {
+            @include visually-hidden;
+        }
+        &__list {
+            @include content-list;
+        }
+}
+
+
+.feature {
+    flex-basis: calc((100% - 30px * 3) / 4);
+}
+
+.feature__icon-box {
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--secondary-bg-color);
+    border-radius: 4px;
+}
+
+.feature__title {
+    margin-bottom: 10px;
+
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature__text {
+    font-size: 14px;
+    line-height: 1.71em;
+}
