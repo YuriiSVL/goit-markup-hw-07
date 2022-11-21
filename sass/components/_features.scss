@@ -4,11 +4,9 @@
     @include section (47px, 94px);
 
     &__title {
-            @include visually-hidden;
-        }
-        &__list {
-            @include content-list;
-        }
+        @extend %visually-hidden;
+    }
+        
 }
 
 

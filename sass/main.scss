@@ -1,6 +1,7 @@
 // utils styles
 @import "./utils/variables";
 @import "./utils/mixins";
+@import "./utils/placeholders";
 
 // base styles
 @import "./base/base";
@@ -26,4 +27,6 @@
 @import "./components/address";
 @import "./components/joing";
 @import "./components/buttons";
-@import "./components/subscribe";
+@import "./components/subscribe-form";
+@import "./components/backdrop";
+@import "./components/modal";
