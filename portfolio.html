@@ -14,7 +14,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css "
     />
     <link rel="stylesheet" href="./css/main.min.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
   <body>
     <!-- HEADER -->
@@ -231,11 +231,12 @@
           <a href="./index.html" lang="en" class="logo footer__logo"
             >Web<span class="logo__part--white">Studio</span></a
           >
+          <!-- ADDRESS -->
           <address class="address">
             <ul class="address__list">
               <li class="adress__item">
                 <a
-                  class="address__link address__link--white link"
+                  class="link address__link address__link--white"
                   href="https://goo.gl/maps/YJw9r9cEcnPuwoJm8"
                   target="_blank"
                   rel="noopner nofollow noreferrer"
@@ -243,12 +244,12 @@
                 </a>
               </li>
               <li class="adress__item">
-                <a href="mailto:info@devstudio.com" class="address__link link"
+                <a href="mailto:info@devstudio.com" class="link address__link"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="adress__item">
-                <a href="tel:+380961111111" class="address__link link">+38 096 111 11 11</a>
+                <a href="tel:+380961111111" class="link address__link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -290,6 +291,7 @@
         <!-- FOOTER FORM  -->
         <div class="footer__subscribe">
           <b class="footer__form-title">Підпишіться на розсилку</b>
+          <!-- SUBSCRIBE FORM -->
           <form class="subscribe-form">
             <input
               class="subscribe-form-input"
@@ -301,7 +303,7 @@
             />
             <button type="submit" class="base-button subscribe-form__base-button">
               Підписатися
-              <svg class="base-button__icon" width="24" height="24">
+              <svg class="base-button__icon base-button__icon--ml" width="24" height="24">
                 <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
