@@ -1,17 +1,20 @@
 .join {
     margin-left: 70px;
+    
+
 }
 
-.join__social-link-list {
-    justify-content: left;
-    margin-top: 20px;
-}
 
 .join__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-white-color);
+}
+
+.join__social-link-list {
+    justify-content: left;
+    margin-top: 20px;
 }
 
 .join__social-link {

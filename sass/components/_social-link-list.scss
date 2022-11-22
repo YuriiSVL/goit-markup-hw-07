@@ -2,10 +2,11 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+
+    & .social-link:hover,
+    & .social-link:focus {
+            background-color: var(--accent-text-color);
+            color: var(--primary-white-color);
+        }
 }
 
-.social-link-list .social-link:hover,
-.social-link-list .social-link:focus {
-    background-color: var(--accent-text-color);
-    color: var(--primary-white-color);
-}

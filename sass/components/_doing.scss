@@ -1,11 +1,5 @@
 .doing {
-    @include section(47px, 94px);
-}
-
-.doing
-
-.section--pt-less {
-    padding-top: 47px;
+    @include section(47px);
 }
 
 .doing-item {

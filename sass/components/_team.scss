@@ -1,12 +1,9 @@
 .team {
     @include section;
-}
-
-.section--grey {
     background-color: var(--secondary-bg-color);
 }
 
-.content-list--center-text {
+.team__content-list {
     text-align: center;
 }
 

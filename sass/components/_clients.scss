@@ -4,6 +4,10 @@
     @include section;
 }
 
+.client {
+    flex-basis: calc((100% - 30px * 5) / 6);
+}
+
 .client-link {
     display: flex;
     justify-content: center;
@@ -17,19 +21,14 @@
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.client-link:hover,
-.client-link:focus {
-    color: var(--accent-text-color);
-    border-color: var(--accent-text-color);
+    &:hover,
+    &:focus {
+            color: var(--accent-text-color);
+            border-color: var(--accent-text-color);
+        }
 }
 
 .client-link__icon {
     fill: currentColor;
-}
-
-.client-link__icon:hover,
-.client-link__icon:focus {
-    color: var(--accent-text-color);
 }

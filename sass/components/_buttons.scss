@@ -13,9 +13,13 @@
     cursor: pointer;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        background-color: var(--accent-button-color);
+    }
 }
 
-.base-button:focus,
-.base-button:hover {
-    background-color: var(--accent-button-color);
+.base-button__icon {
+    fill: currentColor;
 }

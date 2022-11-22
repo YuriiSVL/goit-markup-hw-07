@@ -2,6 +2,7 @@
 @import "./utils/variables";
 @import "./utils/mixins";
 @import "./utils/placeholders";
+@import "./utils/current-page";
 
 // base styles
 @import "./base/base";
@@ -14,7 +15,6 @@
 @import "./components/header";
 @import "./components/logo";
 @import "./components/nav";
-@import "./utils/current-page";
 @import "./components/contacts";
 @import "./components/hero";
 @import "./components/features";
@@ -30,3 +30,7 @@
 @import "./components/subscribe-form";
 @import "./components/backdrop";
 @import "./components/modal";
+@import "./components/data-form";
+
+@import "./components/portfolio";
+@import "./components/filter-list";

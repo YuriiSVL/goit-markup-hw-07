@@ -1,13 +1,12 @@
 /* Секція Особливості */
 
 .features {
-    @include section (47px, 94px);
-
-    &__title {
-        @extend %visually-hidden;
-    }
-        
+    @include section (94px, 47px);    
 }
+
+ .features__title {
+     @extend %visually-hidden;
+ }
 
 
 .feature {
