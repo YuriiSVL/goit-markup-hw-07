@@ -30,15 +30,12 @@
     }
 }
 
-
-
 .subscribe-form__base-button {
     display: flex;
     justify-content: center;
     align-items: center;
     @include horisontal-padding(28px);
 }
-
 
 .base-button__icon--ml {
     margin-left: 10px;

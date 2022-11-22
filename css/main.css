@@ -78,11 +78,6 @@ ul {
   text-decoration: none;
 }
 
-.content-list {
-  display: flex;
-  gap: 30px;
-}
-
 /* Контейнер */
 .container {
   width: 1200px;
@@ -97,6 +92,11 @@ ul {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.content-list {
+  display: flex;
+  gap: 30px;
 }
 
 .header {
